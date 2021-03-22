@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:ital,wght@1,200&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style: none;
+    text-decoration: none;
+    font-family: 'Josefin Sans', sans-serif;
+}
+body{
+    background-color: rgb(206, 200, 200);
+}
+body a{
+text-decoration: none;
+}
+.wrapper{
+    display: flex;
+    position: relative;
+}
+.sidebar{
+    position: fixed;
+    width: 200px;
+    height: 100%;    
+    background: rgba(255, 255, 255, 0.4);
+    box-shadow: 5px 1px 8px 0px rgb(191 184 214 / 27%);
+}
+.sidebar .logo{
+    color: rgb(255 255 255);
+    text-align: center;
+    margin-bottom: 30px;
+    width: 100%;
+    background-color: #4d43ade6;
+    height: 50px;
+    font-size: 1.9rem;
+
+}
+.sidebar ul li{
+padding: 15px;
+text-decoration: none;
+
+}
+.sidebar ul li:hover{
+    background-color: cornsilk;
+    transition: all 1.3s ease-in-out;
+    color: #000;
+}
+.sidebar ul li a{
+    font-weight: 500;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+    letter-spacing: 2px;
+}
+
+.sidebar ul li a .fas{
+    width: 25px;    
+    margin: 0 auto;
+    color: black;
+}
+.name-icon{
+    display: block;
+    height: 80px;
+    width: 40px;
+    text-align: center;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translate(-50%);
+    line-height: 40px;
+    align-items: center;
+   
+}
+.name-icon p{
+    height: 50px;
+    width: 50px;
+    /* background-color: rgb(145, 97, 97); */
+    border-radius: 50%;
+    text-align: center;
+    font-size: 1.4rem;
+    border: 1px solid #000;
+    margin: 10 auto;
+}
+.main_content {
+    width: 100%;
+    margin-left: 200px;
+}
+.main_content .header{
+    padding: 20px;
+    /* background: rgba(255, 255, 255, 0.4);
+    box-shadow: 5px 1px 8px 0px rgb(191 184 214 / 27%); */
+    color: #717171;
+    /* border-bottom: 1px solid #e0e4e8; */
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.main_content .info{
+    margin: 20px;
+    padding: 20px;
+     background: rgba(255, 255, 255, 0.4);
+     box-shadow: 5px 1px 8px 0px rgb(191 184 214 / 27%);
+    color: #717171;
+    border-bottom: 1px solid #e0e4e8;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+.main_content .info form{
+    justify-content: space-around;
+    margin-left: 10px;
+}
+.info .form-group input label{
+    justify-content: space-around;
+    margin-left: 10px;
+}
