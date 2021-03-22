@@ -92,6 +92,7 @@ text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
+    
 }
 .main_content .info{
     margin: 20px;
@@ -103,6 +104,7 @@ text-decoration: none;
     display: flex;
     flex-direction: row;
     justify-content: space-around;
+    box-shadow: 5px 1px 8px 0px rgb(191 184 214 / 27%);
 }
 .main_content .info form{
     justify-content: space-around;
@@ -112,3 +114,9 @@ text-decoration: none;
     justify-content: space-around;
     margin-left: 10px;
 }
+.form-control:focus {
+    /* color: #212529; */
+    background-color: #fff;
+    border-color: #191a1b!important;
+    outline: none!important;
+    box-shadow: none!important;
